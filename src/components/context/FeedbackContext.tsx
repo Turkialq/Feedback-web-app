@@ -12,6 +12,7 @@ export const FeedbackProvider = ({ children }: any) => {
         edit: false
     })
 
+
     const [feedback, setFeedback] = useState([{ id: 1, rating: 10, text: '123' }])
 
     useEffect(() => { FetchFeedback() }, [])
